@@ -1,0 +1,279 @@
+13:28:33,955 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+13:28:33,985 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/alagrigo/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+13:28:34,001 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+13:28:34,003 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+13:28:34,006 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.jdo.query version 4.0.5 at URL file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.5/datanucleus-jdo-query-4.0.5.jar.
+13:28:34,007 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.5/datanucleus-jdo-query-4.0.5.jar!/plugin.xml.
+13:28:34,007 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.5/datanucleus-jdo-query-4.0.5.jar!/plugin.xml.
+13:28:34,008 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 4.1.7 at URL file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-core/4.1.7/datanucleus-core-4.1.7.jar.
+13:28:34,028 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-core/4.1.7/datanucleus-core-4.1.7.jar!/plugin.xml.
+13:28:34,046 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-core/4.1.7/datanucleus-core-4.1.7.jar!/plugin.xml.
+13:28:34,049 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.types.jodatime version 4.1.0.release at URL file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jodatime/4.1.0-release/datanucleus-jodatime-4.1.0-release.jar.
+13:28:34,053 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jodatime/4.1.0-release/datanucleus-jodatime-4.1.0-release.jar!/plugin.xml.
+13:28:34,054 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jodatime/4.1.0-release/datanucleus-jodatime-4.1.0-release.jar!/plugin.xml.
+13:28:34,054 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 4.1.1 at URL file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.1/datanucleus-api-jdo-4.1.1.jar.
+13:28:34,057 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.1/datanucleus-api-jdo-4.1.1.jar!/plugin.xml.
+13:28:34,058 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.1/datanucleus-api-jdo-4.1.1.jar!/plugin.xml.
+13:28:34,060 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.store.rdbms.java_mapping" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jodatime/4.1.0-release/datanucleus-jodatime-4.1.0-release.jar refers to it.
+13:28:34,060 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.store.rdbms.sql_expression" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jodatime/4.1.0-release/datanucleus-jodatime-4.1.0-release.jar refers to it.
+13:28:34,060 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.store.rdbms.sql_method" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/C:/Users/alagrigo/.m2/repository/org/datanucleus/datanucleus-jodatime/4.1.0-release/datanucleus-jodatime-4.1.0-release.jar refers to it.
+13:28:34,084 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+13:28:34,136 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, org.joda.time.DateTime, org.joda.time.Duration, org.joda.time.Interval, org.joda.time.LocalDate, org.joda.time.LocalDateTime, org.joda.time.LocalTime, org.joda.time.Period, short
+13:28:34,136 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+13:28:34,168 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : java.nio.ByteBuffer,byte[],java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Character,java.lang.Integer
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.lang.Double,java.nio.ByteBuffer,java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.nio.ByteBuffer,java.lang.Long,java.lang.String
+13:28:34,169 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.Long,java.lang.String,java.util.Date
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.Long,java.lang.String,java.util.Date
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.Long,java.lang.String,java.util.Date
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : [Ljava.lang.Object;,java.sql.Timestamp,java.lang.String,java.util.Date
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.Long,java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.DateTime to : java.sql.Timestamp,java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.Duration to : java.lang.Long,java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.Interval to : java.lang.String,[Ljava.sql.Timestamp;
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.LocalDate to : java.lang.String,java.sql.Date
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.LocalDateTime to : java.sql.Timestamp,java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.LocalTime to : java.sql.Time,java.lang.String
+13:28:34,170 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for org.joda.time.Period to : java.lang.String
+13:28:34,173 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+13:28:34,173 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.7) for API "JDO"
+13:28:34,173 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+13:28:34,173 (main) DEBUG [DataNucleus.Enhancer] - >>  C:/Users/alagrigo/apache-maven-3.1.0/boot/plexus-classworlds-2.4.2.jar
+13:28:34,175 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+13:28:34,187 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[domainapp.dom.DomainAppDomainModule, domainapp.dom.DomainAppDomManifest, domainapp.dom.simple.QSimpleObject, domainapp.dom.simple.SimpleObject$DeleteDomainEvent, domainapp.dom.simple.SimpleObject$NameDomainEvent, domainapp.dom.simple.SimpleObject, domainapp.dom.simple.SimpleObjects$CreateDomainEvent, domainapp.dom.simple.SimpleObjects]" ...
+13:28:34,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /META-INF/package.jdo
+13:28:34,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /WEB-INF/package.jdo
+13:28:34,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /package.jdo
+13:28:34,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /domainapp/package.jdo
+13:28:34,199 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /domainapp.jdo
+13:28:34,199 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /domainapp/dom/package.jdo
+13:28:34,200 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /domainapp/dom.jdo
+13:28:34,200 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" NOT found at /domainapp/dom/DomainAppDomainModule.jdo
+13:28:34,200 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomainModule" not found
+13:28:34,200 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.DomainAppDomainModule" as not having MetaData.
+13:28:34,200 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.DomainAppDomainModule" has no MetaData or annotations.
+13:28:34,202 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /META-INF/package.jdo
+13:28:34,202 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /WEB-INF/package.jdo
+13:28:34,203 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /package.jdo
+13:28:34,203 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /domainapp/package.jdo
+13:28:34,203 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /domainapp.jdo
+13:28:34,204 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /domainapp/dom/package.jdo
+13:28:34,204 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /domainapp/dom.jdo
+13:28:34,205 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" NOT found at /domainapp/dom/DomainAppDomManifest.jdo
+13:28:34,205 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.DomainAppDomManifest" not found
+13:28:34,205 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.DomainAppDomManifest" as not having MetaData.
+13:28:34,205 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.DomainAppDomManifest" has no MetaData or annotations.
+13:28:34,210 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /META-INF/package.jdo
+13:28:34,210 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /WEB-INF/package.jdo
+13:28:34,210 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /package.jdo
+13:28:34,210 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp/package.jdo
+13:28:34,210 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp.jdo
+13:28:34,210 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp/dom/package.jdo
+13:28:34,211 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp/dom.jdo
+13:28:34,211 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp/dom/simple/package.jdo
+13:28:34,211 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp/dom/simple.jdo
+13:28:34,212 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" NOT found at /domainapp/dom/simple/QSimpleObject.jdo
+13:28:34,212 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.QSimpleObject" not found
+13:28:34,212 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.simple.QSimpleObject" as not having MetaData.
+13:28:34,212 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.QSimpleObject" has no MetaData or annotations.
+13:28:34,215 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /META-INF/package.jdo
+13:28:34,215 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /WEB-INF/package.jdo
+13:28:34,215 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /package.jdo
+13:28:34,215 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp/package.jdo
+13:28:34,216 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp.jdo
+13:28:34,216 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp/dom/package.jdo
+13:28:34,216 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp/dom.jdo
+13:28:34,216 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp/dom/simple/package.jdo
+13:28:34,217 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp/dom/simple.jdo
+13:28:34,217 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" NOT found at /domainapp/dom/simple/SimpleObject$DeleteDomainEvent.jdo
+13:28:34,217 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" not found
+13:28:34,217 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" as not having MetaData.
+13:28:34,217 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObject$DeleteDomainEvent" has no MetaData or annotations.
+13:28:34,218 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /META-INF/package.jdo
+13:28:34,219 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /WEB-INF/package.jdo
+13:28:34,219 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /package.jdo
+13:28:34,219 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp/package.jdo
+13:28:34,220 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp.jdo
+13:28:34,220 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp/dom/package.jdo
+13:28:34,220 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp/dom.jdo
+13:28:34,220 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp/dom/simple/package.jdo
+13:28:34,221 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp/dom/simple.jdo
+13:28:34,221 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" NOT found at /domainapp/dom/simple/SimpleObject$NameDomainEvent.jdo
+13:28:34,221 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObject$NameDomainEvent" not found
+13:28:34,221 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.simple.SimpleObject$NameDomainEvent" as not having MetaData.
+13:28:34,221 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObject$NameDomainEvent" has no MetaData or annotations.
+13:28:34,305 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObject" has been specified with JDO annotations so using those.
+13:28:34,320 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /META-INF/package.jdo
+13:28:34,320 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /WEB-INF/package.jdo
+13:28:34,320 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /package.jdo
+13:28:34,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp/package.jdo
+13:28:34,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp.jdo
+13:28:34,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp/dom/package.jdo
+13:28:34,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp/dom.jdo
+13:28:34,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp/dom/simple/package.jdo
+13:28:34,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp/dom/simple.jdo
+13:28:34,322 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" NOT found at /domainapp/dom/simple/SimpleObjects$CreateDomainEvent.jdo
+13:28:34,322 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" not found
+13:28:34,322 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" as not having MetaData.
+13:28:34,322 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObjects$CreateDomainEvent" has no MetaData or annotations.
+13:28:34,326 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObjects" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+13:28:34,326 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /META-INF/package.jdo
+13:28:34,326 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /WEB-INF/package.jdo
+13:28:34,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /package.jdo
+13:28:34,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp/package.jdo
+13:28:34,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp.jdo
+13:28:34,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp/dom/package.jdo
+13:28:34,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp/dom.jdo
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp/dom/simple/package.jdo
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp/dom/simple.jdo
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" NOT found at /domainapp/dom/simple/SimpleObjects.jdo
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "domainapp.dom.simple.SimpleObjects" not found
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObjects" has annotations but there is no registered AnnotationReader. Please check your CLASSPATH and the annotations in the class for validity.
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - Registering class "domainapp.dom.simple.SimpleObjects" as not having MetaData.
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObjects" has no MetaData or annotations.
+13:28:34,328 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+13:28:34,329 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObject" : Populating Meta-Data
+13:28:34,330 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObject" field "repositoryService" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+13:28:34,332 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /META-INF/package.jdo
+13:28:34,332 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /WEB-INF/package.jdo
+13:28:34,332 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /package.jdo
+13:28:34,332 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/package.jdo
+13:28:34,333 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org.jdo
+13:28:34,333 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/package.jdo
+13:28:34,334 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache.jdo
+13:28:34,334 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/package.jdo
+13:28:34,334 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis.jdo
+13:28:34,334 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib/package.jdo
+13:28:34,335 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib.jdo
+13:28:34,335 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib/services/package.jdo
+13:28:34,335 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib/services.jdo
+13:28:34,336 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib/services/repository/package.jdo
+13:28:34,336 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib/services/repository.jdo
+13:28:34,336 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" NOT found at /org/apache/isis/applib/services/repository/RepositoryService.jdo
+13:28:34,336 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.services.repository.RepositoryService" not found
+13:28:34,336 (main) DEBUG [DataNucleus.MetaData] - Registering class "org.apache.isis.applib.services.repository.RepositoryService" as not having MetaData.
+13:28:34,336 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+13:28:34,337 (main) DEBUG [DataNucleus.MetaData] - Class "domainapp.dom.simple.SimpleObject" : Initialising Meta-Data
+13:28:34,337 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+13:28:34,340 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "domainapp.dom.simple.SimpleObject" starting ...
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnStateManager" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnInheritedFieldCount" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnFlags" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnFieldTypes" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnFieldNames" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnFieldFlags" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have field "dnPersistableSuperclass" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnReplaceField" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnIsTransactional" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnNewInstance" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnNewInstance" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnSuperClone" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnProvideFields" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "___dn$loadClass" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnGetManagedFieldCount" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnIsDirty" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnReplaceStateManager" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnReplaceFlags" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnIsDetached" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnMakeDirty" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "__dnPersistableSuperclassInit" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnIsDeleted" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "__dnFieldFlagsInit" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "__dnFieldTypesInit" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnProvideField" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnPreSerialize" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnGetObjectId" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnGetVersion" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnGetTransactionalObjectId" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnIsNew" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnCopyField" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnGetExecutionContext" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnCopyFields" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "__dnGetInheritedFieldCount" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnNewObjectIdInstance" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnNewObjectIdInstance" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnIsPersistent" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "dnReplaceFields" but is required
+13:28:34,354 (main) DEBUG [DataNucleus.Enhancer] - Class "domainapp.dom.simple.SimpleObject" doesnt have method "__dnFieldNamesInit" but is required
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method domainapp.dom.simple.SimpleObject.getName changing field "domainapp.dom.simple.SimpleObject.name" for call to "dnGetname()"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method domainapp.dom.simple.SimpleObject.setName changing field "domainapp.dom.simple.SimpleObject.name" for call to "dnSetname()"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+13:28:34,364 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+13:28:34,372 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(domainapp.dom.simple.SimpleObject obj, int index)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetname(domainapp.dom.simple.SimpleObject objPC)"
+13:28:34,374 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetname(domainapp.dom.simple.SimpleObject objPC, java.lang.String val)"
+13:28:34,374 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\alagrigo\petclinic\dom\target\classes\domainapp\dom\simple\SimpleObject.class" with enhanced definition
+13:28:34,416 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : domainapp.dom.simple.SimpleObject
+13:28:34,417 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "domainapp.dom.simple.SimpleObject" completed
+13:28:34,420 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=162 ms, enhance=80 ms, total=242 ms. Consult the log for full details

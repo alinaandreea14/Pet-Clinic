@@ -67,9 +67,9 @@
             "description" : "domainapp.app.services.homepage.HomePageViewModel#objects , if Accept: application/json;profile=urn:org.apache.isis/v1",
             "schema" : {
               "type" : "array",
-              "description" : "List of simple.SimpleObject",
+              "description" : "List of simple.Pet",
               "items" : {
-                "$ref" : "#/definitions/simple.SimpleObjectRepr"
+                "$ref" : "#/definitions/simple.PetRepr"
               }
             }
           }
@@ -118,7 +118,7 @@
         }
       }
     },
-    "/objects/simple.SimpleObject/{objectId}" : {
+    "/objects/simple.Pet/{objectId}" : {
       "get" : {
         "tags" : [ "simple" ],
         "description" : "RO Spec v1.0, section 14.1",
@@ -131,18 +131,18 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "simple.SimpleObject , if Accept: application/json;profile=urn:org.apache.isis/v1",
+            "description" : "simple.Pet , if Accept: application/json;profile=urn:org.apache.isis/v1",
             "schema" : {
-              "$ref" : "#/definitions/simple.SimpleObjectRepr"
+              "$ref" : "#/definitions/simple.PetRepr"
             }
           }
         }
       }
     },
-    "/objects/simple.SimpleObject/{objectId}/actions/delete/invoke" : {
+    "/objects/simple.Pet/{objectId}/actions/delete/invoke" : {
       "post" : {
         "tags" : [ "simple" ],
-        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of simple.SimpleObject#delete",
+        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of simple.Pet#delete",
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json;profile=urn:org.apache.isis/v1", "application/json;profile=urn:org.apache.isis/v1;suppress=true", "application/json;profile=urn:org.restfulobjects:repr-types/action-result" ],
         "parameters" : [ {
@@ -160,7 +160,7 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "simple.SimpleObject#delete",
+            "description" : "simple.Pet#delete",
             "schema" : {
               "type" : "object"
             }
@@ -227,7 +227,7 @@
         }
       }
     },
-    "/services/SimpleObjects" : {
+    "/services/Pets" : {
       "get" : {
         "tags" : [ "> services" ],
         "description" : "RO Spec v1.0, section 15.1",
@@ -237,16 +237,16 @@
           "200" : {
             "description" : "OK",
             "schema" : {
-              "$ref" : "#/definitions/SimpleObjectsRepr"
+              "$ref" : "#/definitions/PetsRepr"
             }
           }
         }
       }
     },
-    "/services/SimpleObjects/actions/create/invoke" : {
+    "/services/Pets/actions/create/invoke" : {
       "post" : {
         "tags" : [ "> services" ],
-        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of SimpleObjects#create",
+        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of Pets#create",
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json;profile=urn:org.apache.isis/v1", "application/json;profile=urn:org.apache.isis/v1;suppress=true", "application/json;profile=urn:org.restfulobjects:repr-types/action-result" ],
         "parameters" : [ {
@@ -269,18 +269,18 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "SimpleObjects#create , if Accept: application/json;profile=urn:org.apache.isis/v1",
+            "description" : "Pets#create , if Accept: application/json;profile=urn:org.apache.isis/v1",
             "schema" : {
-              "$ref" : "#/definitions/simple.SimpleObjectRepr"
+              "$ref" : "#/definitions/simple.PetRepr"
             }
           }
         }
       }
     },
-    "/services/SimpleObjects/actions/findByName/invoke" : {
+    "/services/Pets/actions/findByName/invoke" : {
       "get" : {
         "tags" : [ "> services" ],
-        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of SimpleObjects#findByName",
+        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of Pets#findByName",
         "produces" : [ "application/json;profile=urn:org.apache.isis/v1", "application/json;profile=urn:org.apache.isis/v1;suppress=true", "application/json;profile=urn:org.restfulobjects:repr-types/action-result" ],
         "parameters" : [ {
           "name" : "name",
@@ -297,32 +297,32 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "SimpleObjects#findByName , if Accept: application/json;profile=urn:org.apache.isis/v1",
+            "description" : "Pets#findByName , if Accept: application/json;profile=urn:org.apache.isis/v1",
             "schema" : {
               "type" : "array",
-              "description" : "List of simple.SimpleObject",
+              "description" : "List of simple.Pet",
               "items" : {
-                "$ref" : "#/definitions/simple.SimpleObjectRepr"
+                "$ref" : "#/definitions/simple.PetRepr"
               }
             }
           }
         }
       }
     },
-    "/services/SimpleObjects/actions/listAll/invoke" : {
+    "/services/Pets/actions/listAll/invoke" : {
       "get" : {
         "tags" : [ "> services" ],
-        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of SimpleObjects#listAll",
+        "description" : "RO Spec v1.0, section 19.1: (invoke) resource of Pets#listAll",
         "produces" : [ "application/json;profile=urn:org.apache.isis/v1", "application/json;profile=urn:org.apache.isis/v1;suppress=true", "application/json;profile=urn:org.restfulobjects:repr-types/action-result" ],
         "parameters" : [ ],
         "responses" : {
           "200" : {
-            "description" : "SimpleObjects#listAll , if Accept: application/json;profile=urn:org.apache.isis/v1",
+            "description" : "Pets#listAll , if Accept: application/json;profile=urn:org.apache.isis/v1",
             "schema" : {
               "type" : "array",
-              "description" : "List of simple.SimpleObject",
+              "description" : "List of simple.Pet",
               "items" : {
-                "$ref" : "#/definitions/simple.SimpleObjectRepr"
+                "$ref" : "#/definitions/simple.PetRepr"
               }
             }
           }
@@ -391,27 +391,6 @@
       },
       "description" : "org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureId (org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureId)"
     },
-    "simple.SimpleObjectRepr" : {
-      "type" : "object",
-      "properties" : {
-        "datanucleusIdLong" : {
-          "type" : "integer",
-          "format" : "int64"
-        },
-        "datanucleusVersionLong" : {
-          "type" : "integer",
-          "format" : "int64"
-        },
-        "datanucleusVersionTimestamp" : {
-          "type" : "integer",
-          "format" : "int64"
-        },
-        "name" : {
-          "type" : "string"
-        }
-      },
-      "description" : "simple.SimpleObject (domainapp.dom.simple.SimpleObject)"
-    },
     "LinkRepr" : {
       "type" : "object",
       "required" : [ "href", "method", "rel" ],
@@ -464,13 +443,39 @@
       "properties" : {
         "objects" : {
           "type" : "array",
-          "description" : "List of simple.SimpleObject",
+          "description" : "List of simple.Pet",
           "items" : {
-            "$ref" : "#/definitions/simple.SimpleObjectRepr"
+            "$ref" : "#/definitions/simple.PetRepr"
           }
         }
       },
       "description" : "domainapp.app.services.homepage.HomePageViewModel (domainapp.app.services.homepage.HomePageViewModel)"
+    },
+    "PetsRepr" : {
+      "type" : "object",
+      "required" : [ "extensions", "links" ],
+      "properties" : {
+        "links" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/LinkRepr"
+          }
+        },
+        "extensions" : {
+          "type" : "object"
+        },
+        "title" : {
+          "type" : "string"
+        },
+        "serviceId" : {
+          "type" : "string",
+          "default" : "Pets"
+        },
+        "members" : {
+          "type" : "object"
+        }
+      },
+      "description" : "RO Spec v1.0, section 15.1.2: representation of Pets"
     },
     "RestfulObjectsSupportingHomePageRepr" : {
       "type" : "object",
@@ -513,32 +518,6 @@
         }
       },
       "description" : "RO Spec v1.0, section 15.1.2: representation of ConfigurationServiceMenu"
-    },
-    "SimpleObjectsRepr" : {
-      "type" : "object",
-      "required" : [ "extensions", "links" ],
-      "properties" : {
-        "links" : {
-          "type" : "array",
-          "items" : {
-            "$ref" : "#/definitions/LinkRepr"
-          }
-        },
-        "extensions" : {
-          "type" : "object"
-        },
-        "title" : {
-          "type" : "string"
-        },
-        "serviceId" : {
-          "type" : "string",
-          "default" : "SimpleObjects"
-        },
-        "members" : {
-          "type" : "object"
-        }
-      },
-      "description" : "RO Spec v1.0, section 15.1.2: representation of SimpleObjects"
     },
     "RestfulObjectsSupportingUserRepr" : {
       "type" : "object",
@@ -618,6 +597,27 @@
         }
       },
       "description" : "RO Spec v1.0, section 8.2"
+    },
+    "simple.PetRepr" : {
+      "type" : "object",
+      "properties" : {
+        "datanucleusIdLong" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "datanucleusVersionLong" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "datanucleusVersionTimestamp" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "name" : {
+          "type" : "string"
+        }
+      },
+      "description" : "simple.Pet (domainapp.dom.simple.Pet)"
     }
   }
 }

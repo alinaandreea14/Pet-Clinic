@@ -20,10 +20,10 @@ package domainapp.app.services.homepage;
 
 import java.util.List;
 
+import domainapp.dom.simple.Pet;
 import org.apache.isis.applib.annotation.ViewModel;
 
-import domainapp.dom.simple.SimpleObject;
-import domainapp.dom.simple.SimpleObjects;
+import domainapp.dom.simple.Pets;
 
 @ViewModel
 public class HomePageViewModel {
@@ -36,15 +36,15 @@ public class HomePageViewModel {
 
     //region > object (collection)
     @org.apache.isis.applib.annotation.HomePage
-    public List<SimpleObject> getObjects() {
-        return simpleObjects.listAll();
+    public List<Pet> getObjects() {
+        return pets.listAll();
     }
     //endregion
 
     //region > injected services
 
     @javax.inject.Inject
-    SimpleObjects simpleObjects;
+    Pets pets;
 
     //endregion
 }

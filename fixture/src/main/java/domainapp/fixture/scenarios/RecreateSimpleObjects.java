@@ -25,11 +25,11 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 
+import domainapp.dom.simple.Pet;
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
-import domainapp.dom.simple.SimpleObject;
-import domainapp.fixture.dom.simple.SimpleObjectCreate;
-import domainapp.fixture.dom.simple.SimpleObjectsTearDown;
+import domainapp.fixture.dom.simple.PetCreate;
+import domainapp.fixture.dom.simple.PetTearDown;
 
 public class RecreateSimpleObjects extends FixtureScript {
 
@@ -56,14 +56,14 @@ public class RecreateSimpleObjects extends FixtureScript {
     }
     //endregion
 
-    //region > simpleObjects (output)
-    private final List<SimpleObject> simpleObjects = Lists.newArrayList();
+    //region > pets (output)
+    private final List<Pet> pets = Lists.newArrayList();
 
     /**
      * The simpleobjects created by this fixture (output).
      */
-    public List<SimpleObject> getSimpleObjects() {
-        return simpleObjects;
+    public List<Pet> getPets() {
+        return pets;
     }
     //endregion
 
@@ -81,12 +81,12 @@ public class RecreateSimpleObjects extends FixtureScript {
         //
         // execute
         //
-        ec.executeChild(this, new SimpleObjectsTearDown());
+        ec.executeChild(this, new PetTearDown());
 
         for (int i = 0; i < number; i++) {
-            final SimpleObjectCreate fs = new SimpleObjectCreate().setName(NAMES.get(i));
+            final PetCreate fs = new PetCreate().setName(NAMES.get(i));
             ec.executeChild(this, fs.getName(), fs);
-            simpleObjects.add(fs.getSimpleObject());
+            pets.add(fs.getPet());
         }
     }
 }

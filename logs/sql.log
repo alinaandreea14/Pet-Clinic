@@ -1,44 +1,57 @@
-2019-12-09 13:29:46.271 Column ""DELETEME1575894586266"."UNUSED"" added to internal representation of table.
-2019-12-09 13:29:46.274 Creating table "DELETEME1575894586266"
-2019-12-09 13:29:46.277 CREATE TABLE "DELETEME1575894586266"
+2019-12-09 14:04:30.907 Column ""DELETEME1575896670902"."UNUSED"" added to internal representation of table.
+2019-12-09 14:04:30.910 Creating table "DELETEME1575896670902"
+2019-12-09 14:04:30.913 CREATE TABLE "DELETEME1575896670902"
 (
     "UNUSED" INTEGER NOT NULL
 )
-2019-12-09 13:29:46.278 Execution Time = 1 ms
-2019-12-09 13:29:46.292 Dropping table "DELETEME1575894586266"
-2019-12-09 13:29:46.292 DROP TABLE "DELETEME1575894586266"
-2019-12-09 13:29:46.293 Execution Time = 0 ms
-2019-12-09 13:29:46.567 Column ""DELETEME1575894586567"."UNUSED"" added to internal representation of table.
-2019-12-09 13:29:46.567 Creating table "DELETEME1575894586567"
-2019-12-09 13:29:46.568 CREATE TABLE "DELETEME1575894586567"
+2019-12-09 14:04:30.914 Execution Time = 1 ms
+2019-12-09 14:04:30.929 Dropping table "DELETEME1575896670902"
+2019-12-09 14:04:30.929 DROP TABLE "DELETEME1575896670902"
+2019-12-09 14:04:30.931 Execution Time = 1 ms
+2019-12-09 14:04:31.224 Column ""DELETEME1575896671224"."UNUSED"" added to internal representation of table.
+2019-12-09 14:04:31.224 Creating table "DELETEME1575896671224"
+2019-12-09 14:04:31.224 CREATE TABLE "DELETEME1575896671224"
 (
     "UNUSED" INTEGER NOT NULL
 )
-2019-12-09 13:29:46.569 Execution Time = 1 ms
-2019-12-09 13:29:46.571 Dropping table "DELETEME1575894586567"
-2019-12-09 13:29:46.571 DROP TABLE "DELETEME1575894586567"
-2019-12-09 13:29:46.572 Execution Time = 0 ms
-2019-12-09 13:29:46.671 Column ""simple"."SimpleObject"."id"" added to internal representation of table.
-2019-12-09 13:29:46.672 Field [DATASTORE_ID] -> Column(s) ["simple"."SimpleObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2019-12-09 13:29:46.673 Table "simple"."SimpleObject" will manage the persistence of the fields for class domainapp.dom.simple.SimpleObject (inheritance strategy="new-table") 
-2019-12-09 13:29:46.674 Column ""simple"."SimpleObject"."name"" added to internal representation of table.
-2019-12-09 13:29:46.676 Field [domainapp.dom.simple.SimpleObject.name] -> Column(s) ["simple"."SimpleObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2019-12-09 13:29:46.676 Column ""simple"."SimpleObject"."version"" added to internal representation of table.
-2019-12-09 13:29:46.677 Field [VERSION] -> Column(s) ["simple"."SimpleObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2019-12-09 13:29:46.677 Table/View "simple"."SimpleObject" has been initialised
-2019-12-09 13:29:46.678 Schema Transaction started with connection "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@2555a986" with isolation "serializable"
-2019-12-09 13:29:46.680 Check of existence of "simple"."SimpleObject" returned no table
-2019-12-09 13:29:46.681 Creating table "simple"."SimpleObject"
-2019-12-09 13:29:46.681 CREATE TABLE "simple"."SimpleObject"
+2019-12-09 14:04:31.225 Execution Time = 1 ms
+2019-12-09 14:04:31.227 Dropping table "DELETEME1575896671224"
+2019-12-09 14:04:31.227 DROP TABLE "DELETEME1575896671224"
+2019-12-09 14:04:31.228 Execution Time = 0 ms
+2019-12-09 14:04:31.306 Column ""simple"."Pet"."id"" added to internal representation of table.
+2019-12-09 14:04:31.306 Field [DATASTORE_ID] -> Column(s) ["simple"."Pet"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2019-12-09 14:04:31.308 Table "simple"."Pet" will manage the persistence of the fields for class domainapp.dom.simple.Pet (inheritance strategy="new-table") 
+2019-12-09 14:04:31.309 Column ""simple"."Pet"."name"" added to internal representation of table.
+2019-12-09 14:04:31.310 Field [domainapp.dom.simple.Pet.name] -> Column(s) ["simple"."Pet"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2019-12-09 14:04:31.311 Column ""simple"."Pet"."version"" added to internal representation of table.
+2019-12-09 14:04:31.311 Field [VERSION] -> Column(s) ["simple"."Pet"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2019-12-09 14:04:31.311 Table/View "simple"."Pet" has been initialised
+2019-12-09 14:04:31.312 Schema Transaction started with connection "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@2555a986" with isolation "serializable"
+2019-12-09 14:04:31.315 Check of existence of "simple"."Pet" returned no table
+2019-12-09 14:04:31.315 Creating table "simple"."Pet"
+2019-12-09 14:04:31.315 CREATE TABLE "simple"."Pet"
 (
     "id" BIGINT GENERATED BY DEFAULT AS IDENTITY,
     "name" VARCHAR(40) NOT NULL,
     "version" TIMESTAMP NOT NULL,
-    CONSTRAINT "SimpleObject_PK" PRIMARY KEY ("id")
+    CONSTRAINT "Pet_PK" PRIMARY KEY ("id")
 )
-2019-12-09 13:29:46.682 Execution Time = 1 ms
-2019-12-09 13:29:46.686 Creating candidate key "SimpleObject_name_UNQ" in catalog "" schema ""simple""
-2019-12-09 13:29:46.686 ALTER TABLE "simple"."SimpleObject" ADD CONSTRAINT "SimpleObject_name_UNQ" UNIQUE ("name")
-2019-12-09 13:29:46.688 Execution Time = 2 ms
-2019-12-09 13:29:46.688 Schema Transaction committing with connection "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@2555a986"
-2019-12-09 13:29:46.688 Schema Transaction closing with connection "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@2555a986"
+2019-12-09 14:04:31.316 Execution Time = 0 ms
+2019-12-09 14:04:31.320 Creating candidate key "SimpleObject_name_UNQ" in catalog "" schema ""simple""
+2019-12-09 14:04:31.320 ALTER TABLE "simple"."Pet" ADD CONSTRAINT "SimpleObject_name_UNQ" UNIQUE ("name")
+2019-12-09 14:04:31.321 Execution Time = 1 ms
+2019-12-09 14:04:31.322 Schema Transaction committing with connection "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@2555a986"
+2019-12-09 14:04:31.322 Schema Transaction closing with connection "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@2555a986"
+2019-12-09 14:05:30.134 SELECT 'domainapp.dom.simple.Pet' AS "NUCLEUS_TYPE","A0"."name","A0"."id","A0"."version" FROM "simple"."Pet" "A0"
+2019-12-09 14:05:30.690 SELECT 'domainapp.dom.simple.Pet' AS "NUCLEUS_TYPE","A0"."name","A0"."id","A0"."version" FROM "simple"."Pet" "A0"
+2019-12-09 14:05:30.700 SELECT 'domainapp.dom.simple.Pet' AS "NUCLEUS_TYPE","A0"."name","A0"."id","A0"."version" FROM "simple"."Pet" "A0"
+2019-12-09 14:05:59.178 INSERT INTO "simple"."Pet" ("name","version") VALUES (<'Skye'>,<2019-12-09 14:05:59.177>)
+2019-12-09 14:05:59.311 SELECT "A0"."name","A0"."version" FROM "simple"."Pet" "A0" WHERE "A0"."id" = <0>
+2019-12-09 14:06:09.923 INSERT INTO "simple"."Pet" ("name","version") VALUES (<'Fido'>,<2019-12-09 14:06:09.923>)
+2019-12-09 14:06:09.993 SELECT "A0"."name","A0"."version" FROM "simple"."Pet" "A0" WHERE "A0"."id" = <1>
+2019-12-09 14:06:18.805 INSERT INTO "simple"."Pet" ("name","version") VALUES (<'Tiddles'>,<2019-12-09 14:06:18.805>)
+2019-12-09 14:06:18.855 SELECT "A0"."name","A0"."version" FROM "simple"."Pet" "A0" WHERE "A0"."id" = <2>
+2019-12-09 14:06:21.689 SELECT 'domainapp.dom.simple.Pet' AS "NUCLEUS_TYPE","A0"."name","A0"."id","A0"."version" FROM "simple"."Pet" "A0"
+2019-12-09 14:06:21.875 SELECT "A0"."name","A0"."version" FROM "simple"."Pet" "A0" WHERE "A0"."id" = <0>
+2019-12-09 14:06:21.877 SELECT "A0"."name","A0"."version" FROM "simple"."Pet" "A0" WHERE "A0"."id" = <1>
+2019-12-09 14:06:21.878 SELECT "A0"."name","A0"."version" FROM "simple"."Pet" "A0" WHERE "A0"."id" = <2>

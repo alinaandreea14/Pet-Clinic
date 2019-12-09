@@ -1,8 +1,9 @@
 domainapp\dom\pets\QPet.class
-domainapp\dom\DomainAppDomainModule.class
 domainapp\dom\pets\Pet.class
-domainapp\dom\pets\Pet$DeleteDomainEvent.class
-domainapp\dom\DomainAppDomManifest.class
 domainapp\dom\pets\Pets.class
 domainapp\dom\pets\Pet$NameDomainEvent.class
 domainapp\dom\pets\Pets$CreateDomainEvent.class
+domainapp\dom\DomainAppDomainModule.class
+domainapp\dom\pets\PetSpecies.class
+domainapp\dom\pets\Pet$DeleteDomainEvent.class
+domainapp\dom\DomainAppDomManifest.class

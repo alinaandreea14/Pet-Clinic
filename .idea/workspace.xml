@@ -2,63 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9cc47c5-821a-4b0a-b556-94b34256dd0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/domainapp/app/services/homepage/HomePageViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/domainapp/app/services/homepage/HomePageViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/petclinic-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/petclinic-app-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datanucleus.log" beforeDir="false" afterPath="$PROJECT_DIR$/datanucleus.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/simple/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/simple/Pet.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pet.layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/simple/Pet.png" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/simple/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/simple/PetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/simple/PetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/simple/PetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/simple/PetsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/target/generated-sources/annotations/domainapp/dom/simple/QPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/generated-sources/annotations/domainapp/dom/simple/QPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/datanucleus.log" beforeDir="false" afterPath="$PROJECT_DIR$/dom/datanucleus.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/main/java/domainapp/dom/pets/Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/pets/PetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/pets/PetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/pets/PetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/src/test/java/domainapp/dom/pets/PetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pet$DeleteDomainEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pet$DeleteDomainEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pet$NameDomainEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pet$NameDomainEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pets.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/Pets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/QPet.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/classes/domainapp/dom/pets/QPet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/generated-sources/annotations/domainapp/dom/pets/QPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/generated-sources/annotations/domainapp/dom/pets/QPet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom/target/petclinic-dom-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/petclinic-dom-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/TEST-domainapp.dom.simple.PetsTest$Create.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/TEST-domainapp.dom.simple.PetsTest$Create.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.simple.PetTest$Name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.simple.PetTest$Name.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.simple.PetsTest$Create.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.simple.PetsTest$Create.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.simple.PetsTest$ListAll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.simple.PetsTest$ListAll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/dom/simple/PetCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/dom/pets/PetCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/dom/simple/PetTearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/dom/pets/PetTearDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/scenarios/RecreateSimpleObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/scenarios/RecreateSimpleObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/TEST-domainapp.dom.pets.PetTest$Name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/TEST-domainapp.dom.pets.PetTest$Name.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/TEST-domainapp.dom.pets.PetsTest$Create.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/TEST-domainapp.dom.pets.PetsTest$Create.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.pets.PetsTest$Create.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/surefire-reports/domainapp.dom.pets.PetsTest$Create.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetTest$Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetTest$Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$Create$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$Create$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$Create.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$Create.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$ListAll$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$ListAll$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$ListAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest$ListAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/dom/target/test-classes/domainapp/dom/pets/PetsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/dom/pets/PetCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/src/main/java/domainapp/fixture/dom/pets/PetCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/target/classes/domainapp/fixture/dom/pets/PetCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/target/classes/domainapp/fixture/dom/pets/PetTearDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/target/classes/domainapp/fixture/scenarios/RecreateSimpleObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/target/petclinic-fixture-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/target/petclinic-fixture-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/src/test/java/domainapp/integtests/tests/modules/simple/PetIntegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/src/test/java/domainapp/integtests/tests/modules/simple/PetIntegTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/src/test/java/domainapp/integtests/tests/modules/simple/PetsIntegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/src/test/java/domainapp/integtests/tests/modules/simple/PetsIntegTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/petclinic-integtests-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/petclinic-integtests-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetIntegTest$DataNucleusId.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetIntegTest$DataNucleusId.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetIntegTest$Name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetIntegTest$Name.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetIntegTest$Title.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetIntegTest$Title.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetsIntegTest$Create.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetsIntegTest$Create.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetsIntegTest$ListAll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/TEST-domainapp.integtests.tests.modules.simple.PetsIntegTest$ListAll.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$DataNucleusId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$DataNucleusId.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$DataNucleusVersionTimestamp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$DataNucleusVersionTimestamp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$Name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$Name.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$Title.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$Title.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$UpdateName.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetIntegTest$UpdateName.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetsIntegTest$Create.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetsIntegTest$Create.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetsIntegTest$ListAll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integtests/target/surefire-reports/domainapp.integtests.tests.modules.simple.PetsIntegTest$ListAll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/petclinic-webapp-1.0-SNAPSHOT/WEB-INF/lib/petclinic-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/petclinic-webapp-1.0-SNAPSHOT/WEB-INF/lib/petclinic-app-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/petclinic-webapp-1.0-SNAPSHOT/WEB-INF/lib/petclinic-dom-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/petclinic-webapp-1.0-SNAPSHOT/WEB-INF/lib/petclinic-dom-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/petclinic-webapp-1.0-SNAPSHOT/WEB-INF/lib/petclinic-fixture-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/petclinic-webapp-1.0-SNAPSHOT/WEB-INF/lib/petclinic-fixture-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/simpleapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/simpleapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/tmp/WicketFilter-filestore/716/3934/tmrarr59puqo1dn3hrynysvpb/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/target/petclinic-fixture-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +46,15 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package.json" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,6 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="PetClinicConfig" type="JUnit" factoryName="JUnit">
@@ -94,7 +83,7 @@
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-Disis.persistor.datanucleus.install-fixtures=true -Disis.fixtures=fixture.simple.scenario.PetsFixture" />
+      <option name="VM_PARAMETERS" value="-Disis.persistor.datanucleus.install-fixtures=true -Disis.fixtures=fixture.pets.scenario.PetsFixture" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,7 +115,7 @@
       <updated>1575894627823</updated>
       <workItem from="1575894631132" duration="498000" />
       <workItem from="1575895398233" duration="1193000" />
-      <workItem from="1575904062703" duration="235000" />
+      <workItem from="1575904062703" duration="3724000" />
     </task>
     <servers />
   </component>
@@ -134,30 +123,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="70" y="337" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575896358340">
+    <state x="70" y="337" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575904565452">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="70" y="337" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575896358340" />
+    <state x="70" y="337" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575904565452" />
     <state x="311" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575895850805">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="311" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575895850805" />
-    <state width="1340" height="265" key="GridCell.Tab.0.bottom" timestamp="1575904420565">
+    <state width="1184" height="265" key="GridCell.Tab.0.bottom" timestamp="1575907857766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="265" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1575904420565" />
-    <state width="1340" height="265" key="GridCell.Tab.0.center" timestamp="1575904420564">
+    <state width="1184" height="265" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1575907857766" />
+    <state width="1184" height="265" key="GridCell.Tab.0.center" timestamp="1575907857766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="265" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1575904420564" />
-    <state width="1340" height="265" key="GridCell.Tab.0.left" timestamp="1575904420564">
+    <state width="1184" height="265" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1575907857766" />
+    <state width="1184" height="265" key="GridCell.Tab.0.left" timestamp="1575907857766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="265" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1575904420564" />
-    <state width="1340" height="265" key="GridCell.Tab.0.right" timestamp="1575904420565">
+    <state width="1184" height="265" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1575907857766" />
+    <state width="1184" height="265" key="GridCell.Tab.0.right" timestamp="1575907857766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="265" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1575904420565" />
+    <state width="1184" height="265" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1575907857766" />
     <state x="279" y="328" width="672" height="678" key="search.everywhere.popup" timestamp="1575895009300">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

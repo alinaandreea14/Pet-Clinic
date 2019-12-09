@@ -1,5 +1,9 @@
 domainapp\fixture\dom\pets\PetTearDown.class
 domainapp\fixture\DomainAppFixtureScriptsSpecificationProvider.class
+domainapp\fixture\dom\pets\objects\PetForFido.class
+domainapp\fixture\dom\pets\objects\PetForTiddles.class
+domainapp\fixture\scenarios\RecreateSimpleObjects.class
 domainapp\fixture\dom\pets\PetCreate.class
 domainapp\fixture\DomainAppFixtureModule.class
-domainapp\fixture\scenarios\RecreateSimpleObjects.class
+domainapp\fixture\dom\pets\objects\PetAbstract.class
+domainapp\fixture\dom\pets\objects\PetForSkye.class

@@ -1,12 +1,2 @@
 domainapp\integtests\tests\DomainAppIntegTest.class
-domainapp\integtests\tests\modules\pets\PetIntegTest$Title.class
-domainapp\integtests\tests\modules\pets\PetsIntegTest$Create$1.class
-domainapp\integtests\tests\modules\pets\PetsIntegTest.class
-domainapp\integtests\tests\modules\pets\PetIntegTest$DataNucleusVersionTimestamp.class
-domainapp\integtests\tests\modules\pets\PetIntegTest$Name.class
 domainapp\integtests\bootstrap\DomainAppSystemInitializer.class
-domainapp\integtests\tests\modules\pets\PetsIntegTest$Create.class
-domainapp\integtests\tests\modules\pets\PetsIntegTest$ListAll.class
-domainapp\integtests\tests\modules\pets\PetIntegTest$DataNucleusId.class
-domainapp\integtests\tests\modules\pets\PetIntegTest$UpdateName.class
-domainapp\integtests\tests\modules\pets\PetIntegTest.class

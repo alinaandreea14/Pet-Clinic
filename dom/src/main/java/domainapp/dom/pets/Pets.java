@@ -95,9 +95,10 @@ public class Pets {
     )
     @MemberOrder(sequence = "3")
     public Pet create(
-            final @ParameterLayout(named="Name") String name) {
+            final @ParameterLayout(named="Name") String name, final PetSpecies species) {
         final Pet obj = repositoryService.instantiate(Pet.class);
         obj.setName(name);
+        obj.setSpecies(species);
         repositoryService.persist(obj);
         return obj;
     }

@@ -19,7 +19,9 @@ package domainapp.dom.pets;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.nullValue;
+import static org.junit.Assert.assertThat;
 
 public class PetTest {
 
@@ -33,16 +35,30 @@ public class PetTest {
     public static class Name extends PetTest {
 
         @Test
-        public void happyCase() throws Exception {
+        public void canChange() throws Exception {
             // given
             String name = "Foobar";
-            assertThat(pet.getName()).isNull();
+            assertThat(pet.getName(), is(nullValue()));
 
             // when
             pet.setName(name);
 
             // then
-            assertThat(pet.getName()).isEqualTo(name);
+            assertThat(pet.getName(), is(name));
+        }
+    }
+
+    public static class Species extends PetTest {
+
+        @Test
+        public void canChange() throws Exception {
+
+            PetSpecies species = PetSpecies.Dog;
+            assertThat(pet.getSpecies(), is(nullValue()));
+
+            pet.setSpecies(species);
+
+            assertThat(pet.getSpecies(), is(species));
         }
     }
 

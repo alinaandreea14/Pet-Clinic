@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="happyCase" classname="domainapp.dom.pets.PetTest$Name" time="0"/>
+  <testcase name="canChange" classname="domainapp.dom.pets.PetTest$Name" time="0"/>
 </testsuite>

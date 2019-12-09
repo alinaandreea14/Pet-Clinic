@@ -23,6 +23,7 @@ import org.apache.isis.applib.fixturescripts.FixtureScript;
 
 import domainapp.dom.pets.Pet;
 import domainapp.dom.pets.Pets;
+import domainapp.dom.pets.PetSpecies;
 
 public class PetCreate extends FixtureScript {
 
@@ -54,12 +55,16 @@ public class PetCreate extends FixtureScript {
     }
     //endregion
 
+    private PetSpecies species;
+    @javax.jdo.annotations.Column(allowsNull = "false")
+    public PetSpecies getSpecies() {return species; }
+    public void setSpecies(final PetSpecies species) { this.species = species; }
+
     @Override
     protected void execute(final ExecutionContext ec) {
 
         String name = checkParam("name", ec, String.class);
-
-        this.pet = wrap(pets).create(name);
+        this.pet = wrap(pets).create(name, species);
 
         // also make available to UI
         ec.addResult(this, pet);

@@ -28,6 +28,7 @@ public class QPet extends PersistableExpressionImpl<Pet> implements PersistableE
     }
 
     public final NumericExpression<Integer> NAME_LENGTH;
+    public final ObjectExpression<domainapp.dom.pets.PetSpecies> species;
     public final StringExpression name;
     public final ObjectExpression<org.apache.isis.applib.services.repository.RepositoryService> repositoryService;
 
@@ -35,6 +36,7 @@ public class QPet extends PersistableExpressionImpl<Pet> implements PersistableE
     {
         super(parent, name);
         this.NAME_LENGTH = new NumericExpressionImpl<Integer>(this, "NAME_LENGTH");
+        this.species = new ObjectExpressionImpl<domainapp.dom.pets.PetSpecies>(this, "species");
         this.name = new StringExpressionImpl(this, "name");
         this.repositoryService = new ObjectExpressionImpl<org.apache.isis.applib.services.repository.RepositoryService>(this, "repositoryService");
     }
@@ -43,6 +45,7 @@ public class QPet extends PersistableExpressionImpl<Pet> implements PersistableE
     {
         super(type, name, exprType);
         this.NAME_LENGTH = new NumericExpressionImpl<Integer>(this, "NAME_LENGTH");
+        this.species = new ObjectExpressionImpl<domainapp.dom.pets.PetSpecies>(this, "species");
         this.name = new StringExpressionImpl(this, "name");
         this.repositoryService = new ObjectExpressionImpl<org.apache.isis.applib.services.repository.RepositoryService>(this, "repositoryService");
     }

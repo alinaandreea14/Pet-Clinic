@@ -47,19 +47,23 @@ import org.apache.isis.applib.util.ObjectContracts;
         @javax.jdo.annotations.Query(
                 name = "find", language = "JDOQL",
                 value = "SELECT "
-                        + "FROM domainapp.dom.simple.Pet "),
+                        + "FROM domainapp.dom.pets.Pet "),
         @javax.jdo.annotations.Query(
                 name = "findByName", language = "JDOQL",
                 value = "SELECT "
-                        + "FROM domainapp.dom.simple.Pet "
+                        + "FROM domainapp.dom.pets.Pet "
                         + "WHERE name.indexOf(:name) >= 0 ")
 })
-@javax.jdo.annotations.Unique(name="SimpleObject_name_UNQ", members = {"name"})
+@javax.jdo.annotations.Unique(name="Pet_name_UNQ", members = {"name"})
 @DomainObject
 public class Pet implements Comparable<Pet> {
 
     public static final int NAME_LENGTH = 40;
 
+    private PetSpecies species;
+    @javax.jdo.annotations.Column(allowsNull = "false")
+    public PetSpecies getSpecies() {return species; }
+    public void setSpecies(final PetSpecies species) { this.species = species; }
 
     public TranslatableString title() {
         return TranslatableString.tr("Object: {name}", "name", getName());
@@ -85,6 +89,7 @@ public class Pet implements Comparable<Pet> {
     public TranslatableString validateName(final String name) {
         return name != null && name.contains("!")? TranslatableString.tr("Exclamation mark is not allowed"): null;
     }
+
 
 
 

@@ -1,0 +1,33 @@
+{
+  "name": "pets",
+  "version": "1.0.0",
+  "dependencies": {
+    "columns": [
+      {
+        "span": 6,
+        "memberGroups": {
+          "General": {
+            "members": {
+              "name": {},
+              "species": {}
+            }
+          }
+        }
+      },
+      {
+        "span": 0,
+        "memberGroups": {}
+      },
+      {
+        "span": 0,
+        "memberGroups": {}
+      },
+      {
+        "span": 6,
+        "collections": {}
+      }
+    ],
+    "actions": {}
+  }
+}
+

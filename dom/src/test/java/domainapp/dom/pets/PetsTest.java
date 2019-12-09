@@ -31,7 +31,8 @@ import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.core.unittestsupport.jmocking.JUnitRuleMockery2;
 import org.apache.isis.core.unittestsupport.jmocking.JUnitRuleMockery2.Mode;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class PetsTest {
 
@@ -70,13 +71,13 @@ public class PetsTest {
             });
 
             // when
-            final Pet obj = pets.create("Foobar");
+            final Pet obj = pets.create("Bonzo", PetSpecies.Dog);
 
             // then
-            assertThat(obj).isEqualTo(pet);
-            assertThat(obj.getName()).isEqualTo("Foobar");
+            assertThat(obj, is(pet));
+            assertThat(obj.getName(), is("Bonzo"));
+            assertThat(obj.getSpecies(), is(PetSpecies.Dog));
         }
-
     }
 
     public static class ListAll extends PetsTest {
@@ -98,7 +99,7 @@ public class PetsTest {
             final List<Pet> list = pets.listAll();
 
             // then
-            assertThat(list).isEqualTo(all);
+            assertThat(list, is(all));
         }
     }
 }

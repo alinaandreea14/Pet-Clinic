@@ -25,11 +25,11 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import domainapp.dom.simple.Pet;
+import domainapp.dom.pets.Pet;
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
-import domainapp.fixture.dom.simple.PetCreate;
-import domainapp.fixture.dom.simple.PetTearDown;
+import domainapp.fixture.dom.pets.PetCreate;
+import domainapp.fixture.dom.pets.PetTearDown;
 
 public class RecreateSimpleObjects extends FixtureScript {
 

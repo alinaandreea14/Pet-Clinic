@@ -617,7 +617,7 @@
           "type" : "string"
         }
       },
-      "description" : "simple.Pet (domainapp.dom.simple.Pet)"
+      "description" : "simple.Pet (domainapp.dom.pets.Pet)"
     }
   }
 }

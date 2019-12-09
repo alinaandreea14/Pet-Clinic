@@ -1,7 +1,7 @@
-domainapp\dom\simple\PetsTest$Create$1.class
-domainapp\dom\simple\PetsTest$Create.class
-domainapp\dom\simple\PetTest$Name.class
-domainapp\dom\simple\PetsTest$ListAll$1.class
-domainapp\dom\simple\PetsTest$ListAll.class
-domainapp\dom\simple\PetTest.class
-domainapp\dom\simple\PetsTest.class
+domainapp\dom\pets\PetsTest$Create$1.class
+domainapp\dom\pets\PetTest.class
+domainapp\dom\pets\PetsTest.class
+domainapp\dom\pets\PetsTest$Create.class
+domainapp\dom\pets\PetTest$Name.class
+domainapp\dom\pets\PetsTest$ListAll.class
+domainapp\dom\pets\PetsTest$ListAll$1.class

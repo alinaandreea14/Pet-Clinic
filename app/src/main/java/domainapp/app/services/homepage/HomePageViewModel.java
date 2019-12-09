@@ -20,10 +20,10 @@ package domainapp.app.services.homepage;
 
 import java.util.List;
 
-import domainapp.dom.simple.Pet;
+import domainapp.dom.pets.Pet;
 import org.apache.isis.applib.annotation.ViewModel;
 
-import domainapp.dom.simple.Pets;
+import domainapp.dom.pets.Pets;
 
 @ViewModel
 public class HomePageViewModel {
